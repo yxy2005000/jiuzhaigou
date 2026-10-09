@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F0F8FF"
+    android:padding="30dp">
+
+    <!-- 顶部图标标题 -->
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="210dp"
+        android:src="@drawable/login"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="九寨沟智慧旅游平台"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2E86AB"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="轻松购票 畅游九寨"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- 输入布局 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入账号"
+            android:paddingLeft="15dp"
+            android:background="@drawable/edit_border"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入密码"
+            android:paddingLeft="15dp"
+            android:background="@drawable/edit_border"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <!-- 登录按钮 -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="立即登录"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/btn_blue_bg"
+        android:layout_marginTop="35dp"
+        android:elevation="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_register"
+        android:text="忘记密码 | 注册账号"
+        android:textSize="13sp"
+        android:textColor="#2E86AB"
+        android:layout_gravity="end"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

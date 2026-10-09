@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#F0F8FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:elevation="2dp"
+        android:radius="8dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banner3"
+            android:layout_marginBottom="15dp"
+            android:clipToOutline="true"
+            android:outlineProvider="bounds"
+            android:radius="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="游玩指南"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6dp"
+            android:text="推荐游玩季节：秋季9—11月彩林最美，夏季避暑宜人。
+推荐游览路线：
+1.日则沟：五花海、珍珠滩、镜海为核心景点。
+2.则查洼沟：长海、五彩池必打卡。
+3.树正沟：树正群海、诺日朗瀑布风光绝美。
+
+景区内可乘坐观光车，站点直达各景点，节省体力。建议一日慢游，边走边拍照，体验原生态自然风光。"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:lineHeight="24sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="导览图"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/daolan"
+            android:clipToOutline="true"
+            android:outlineProvider="bounds"
+            android:radius="8dp"/>
+    </LinearLayout>
+</ScrollView>

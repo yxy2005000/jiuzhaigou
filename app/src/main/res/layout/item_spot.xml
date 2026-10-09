@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- 图片占满整排，宽度填满 -->
+    <ImageView
+        android:id="@+id/iv_spot_cover"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="#E0E0E0"/>
+
+    <!-- 标题居中 -->
+    <TextView
+        android:id="@+id/tv_spot_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"/>
+
+    <!-- 简介居中 -->
+    <TextView
+        android:id="@+id/tv_spot_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#666"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>

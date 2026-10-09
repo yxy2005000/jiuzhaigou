@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/et_nick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="昵称" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"/>
+
+    <!-- 性别选择 -->
+    <RadioGroup
+        android:id="@+id/rg_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:layout_marginLeft="20dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="手机号"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/et_career"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="职业"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"/>
+
+    <!-- 兴趣多选 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="兴趣（可多选）"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <CheckBox
+            android:id="@+id/cb_hiking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="徒步"/>
+        <CheckBox
+            android:id="@+id/cb_photography"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="摄影"
+            android:layout_marginLeft="20dp"/>
+        <CheckBox
+            android:id="@+id/cb_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美食"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="完成注册"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 标题 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自助出行线路"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- ===================== 东线 ===================== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:padding="20dp"
+            android:elevation="2dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="九寨沟 东线"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#666666"
+                android:lineSpacingExtra="4dp"
+                android:text="路线推荐：绵阳--江油--平武--九寨沟
+此路线全程大约340.2公里，从绵阳出发，沿【G5-S205-九环公路】行驶，到达九寨沟。"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dongxian"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#666666"
+                android:lineSpacingExtra="4dp"
+                android:text="绵阳市：四川省历史文化名城，拥有“北川羌城旅游区”5A级景区。
+江油县：推荐景点：李白故里、陇西院、太白碑林。
+平武县：素有“天下大熊猫第一县”之美誉。"/>
+
+        </LinearLayout>
+
+        <!-- ===================== 西线 ===================== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:padding="20dp"
+            android:elevation="2dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="九寨沟 西线"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#666666"
+                android:lineSpacingExtra="4dp"
+                android:text="路线推荐：成都--汶川--茂县--松潘--九寨沟
+此路线全程大约414公里，沿【都汶高速-G213-S301】行驶。"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/xixian"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#666666"
+                android:lineSpacingExtra="4dp"
+                android:text="汶川县：素有“大禹故里、熊猫家园、羌绣之乡”之称。
+茂县：推荐景点：羌乡古寨、叠溪·松坪沟。
+松潘县：四川西部旅游黄金路线的中心位置。"/>
+
+        </LinearLayout>
+
+        <!-- ===================== 草原线 ===================== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:padding="20dp"
+            android:elevation="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="九寨沟 草原线"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#666666"
+                android:lineSpacingExtra="4dp"
+                android:text="路线推荐：成都--雅安--泸定--丹巴--四姑娘山--马尔康--红原--若尔盖--川主寺--九寨沟
+全程约1608.1公里。"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/caoyuanxian"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#666666"
+                android:lineSpacingExtra="4dp"
+                android:text="雅安市：有“雨城”之称，世界上第一个发现大熊猫的地方。
+泸定县：革命历史名城，著名景点：泸定桥、海螺沟。
+丹巴县：推荐景点：甲居藏寨、墨尔多山、党岭。"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
